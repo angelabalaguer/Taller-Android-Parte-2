@@ -27,7 +27,8 @@
         app:borderWidth="10dp"
         app:elevation="4dp"
         app:fabSize="normal"
-        app:rippleColor="#43e3ff" />
+        app:rippleColor="#43e3ff"
+        android:onClick="btnderecha"/>
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -39,5 +40,6 @@
         app:borderWidth="10dp"
         app:elevation="4dp"
         app:fabSize="normal"
-        app:rippleColor="#43e3ff" />
+        app:rippleColor="#43e3ff"
+        android:onClick="btnizquierda"/>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
